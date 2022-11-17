@@ -1,0 +1,526 @@
+body {
+    background-color: #583477;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #290f3d;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #a17581;
+    border-radius: 0;
+    border:0;
+}
+
+#logo-img {
+    background: url('../img/violet-cat.png') no-repeat;
+    width: 130px;
+    height: 130px;
+    background-size: contain;
+    margin: 10px 10px 10px 0px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    padding: 25px;
+    font-weight: bold;
+}
+
+.navbar-brand h1 {
+    color: #2d1142;
+    text-transform:uppercase;
+    text-shadow: -2px 2px 2px #2c1141;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.navbar-brand p {
+    color: #221c26;
+    text-transform:uppercase;
+    text-shadow: -1px 1px 2px #2c1141;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1.1px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+#black-cat {
+    width:20px;
+    margin-right: 5px;
+}
+
+#nav-list {
+    margin-top:25px;
+
+}
+
+#nav-list a {
+    color:#2d1142;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav-list a:hover, #nav-list a:visited {
+    background: #583477;
+}
+
+#nav-list a span {
+    font-size:1.6em;
+}
+
+#phone {
+    color:#2d1142;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+#phone a {
+    letter-spacing: 1.6px;
+    text-align: right;
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
+#phone div {
+    letter-spacing: 1.6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #2d1142;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: -30px;
+    clear: both;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #3d2254;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #3d2254;
+}
+/** END HEADER **/
+
+
+/** FOOTER **/
+.panel-footer {
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #222;
+    border-top:0;
+    color:rgb(200, 195, 195);
+}
+
+.panel-footer div.row {
+    margin-bottom: 20px;
+}
+
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+
+#address p {
+    color: #a17581;
+    font-size: 0.9em;
+    line-height: 2;
+}
+
+#quotes {
+    font-style:italic;
+}
+
+#quotes p:nth-child(2) {
+    margin-top:20px;
+}
+
+/** END FOOTER **/
+
+
+/** HOME PAGE **/
+.container .jumbotron {
+    box-shadow: 0px 0px 50px #2d1142;
+    border: 3px solid #3d2254;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.jumbotron img {
+    border-radius: 10px;
+}
+
+#craft-tile, #tutorial-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    border: 3px solid #3d2254;
+    overflow: hidden;
+    padding:0;
+    border-radius: 15px;
+}
+
+#craft-tile:hover, #tutorial-tile:hover, #map-tile:hover{
+    box-shadow: -5px 5px 5px #3d2254;
+}
+
+#craft-tile {
+    background: url('../img/craft.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#tutorial-tile {
+    background: url('../img/tutorial.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#craft-tile span, #tutorial-tile span, #map-tile span {
+    color: rgb(200, 195, 195);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #221c26;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    border-radius: 10px;
+}
+/** END HOME PAGE **/
+
+
+/** CRAFT CATEGORIES PAGE **/
+.category-tile {
+    position:relative;
+    border: 3px solid #3d2254;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    max-width: 250px;
+}
+
+.category-tile span {
+    color: rgb(200, 195, 195);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #221c26;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.category-tile:hover {
+    box-shadow: -5px 5px 5px #3d2254;
+}
+
+#main-content > div {
+    margin-bottom: 30px;
+}
+
+#main-content > div {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+#main-content > h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+/** END CRAFT CATEGORIES PAGE **/
+
+
+/** SINGLE CATEGORY **/
+
+.craft-photo {
+    position: relative;
+    padding-right: 0;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.craft-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    text-align: center;
+    background-color:#221c26;
+    opacity: .8;
+    color: rgb(200, 195, 195);
+}
+
+.craft-photo img {
+    border: 2px solid #2d1142;
+    box-shadow: -5px 5px 5px #3d2254
+}
+
+.craft-description {
+    padding-right: 30px;
+}
+
+h3.craft-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.craft-description p {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.craft-item {
+    margin-bottom: 20px;
+}
+
+.craft-item hr {
+    width: 80%;
+    border: 1px solid #2d1142;
+}
+
+/** END SINGLE CATEGORY **/
+
+
+
+/************ large devices ************/
+@media (min-width: 1200px) {
+
+    .jumbotron {
+        background: url('../img/desk_1200.jpg') no-repeat;
+        height: 675px;
+    }
+
+}
+
+/************ medium devices ************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    #logo-img {
+        background: url('../img/violet-cat.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin: 5px 5px 5px 0px;
+    }
+
+    .navbar-brand {
+        padding: 15px;
+        font-weight: bold;
+    }  
+
+    .navbar-brand h1 {
+        padding-left: 10px;
+    }
+
+    .navbar-brand p {
+        padding-left: 10px;
+    }
+
+    .container .jumbotron {
+        background: url('../img/desk_992.jpg') no-repeat;
+        height: 558px;
+    }
+   
+}
+
+/************ small devices ************/
+@media (min-width: 768px) and (max-width: 991px) {
+   
+    /* Header */
+    .navbar-brand {
+        height: 120px;
+        padding: 10px;
+    }
+    /* End Header */
+
+
+    /* Home Page */
+    .container .jumbotron {
+        background: url('../img/desk_768.jpg') no-repeat;
+        height: 432px;
+    }
+    /* End Home Page */
+
+    
+    /* Single Category */
+    .craft-description {
+        padding-right: 0px;
+    }
+    /* End Single Category */
+
+}
+
+/************ extra small devices ************/
+@media (max-width: 767px) {
+
+    /* Header */
+    .navbar-brand {
+        height: 80px;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 35px;
+    }
+
+    .navbar-brand p {
+        font-size: .9em;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.3em;
+    }
+
+    #collapsable-nav a span {
+        font-size: 0.8em;
+        margin-right:5px;
+    }
+    
+    #call-btn > a {
+        font-size: 1.4em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #3d2254;
+        background-color: #a17581;
+        color: #3d2254;
+    }
+    
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    #call-btn + div {
+        font-size: 1.2em;
+        display: block;
+        padding: 5px;
+        color: #a17581;
+    }
+    /* End Header */
+
+
+    /* Footer */
+    .panel-footer  {
+        text-align: center;
+    }
+
+    #quotes p:nth-child(2) {
+        margin-top:0px;
+    }
+
+    .panel-footer section hr {
+        width: 80%;
+    }
+
+    /* End Footer */
+
+
+    /* Home Page */
+    .container .jumbotron {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    /* End Home Page */
+
+    /* Single Category */
+    .craft-photo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .craft-description {
+        text-align: center;
+    }
+    /* End Single Category */
+
+
+}
+
+/************ super extra small devices ************/
+@media (max-width: 479px) {
+
+    /* Header */
+    .navbar-brand {
+        height: 80px;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 7.5vw;
+    }
+
+    .navbar-brand p {
+        font-size: .8em;
+    }
+    /* End Header */
+
+    /* Home Page */
+    .container .jumbotron {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float:left;
+        width: 100%;
+    }
+    /* End Home Page */
+
+
+    /* Single Category */
+    .craft-photo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .craft-description {
+        text-align: center;
+    }
+    /* End Single Category */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
